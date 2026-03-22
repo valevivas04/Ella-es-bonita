@@ -230,14 +230,3 @@ text-shadow:
     transform: scale(0.8) rotate(45deg);
 }
 }
-
-#videoCabeza{
-position:absolute;
-top:0;
-left:0;
-width:100%;
-height:100%;
-object-fit:cover;
-opacity:0; /* oculto al inicio */
-pointer-events:none;
-}

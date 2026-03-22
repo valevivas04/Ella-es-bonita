@@ -11,8 +11,6 @@ let rotacionEstrellas = 0
 let rotacionPoster = 0
 
 let segundoVideo = false
-let videoCabeza = document.getElementById("videoCabeza")
-let mostrandoCabeza = false
 
 let finEscena = false;
 
@@ -26,11 +24,9 @@ document.body.addEventListener("click", () => {
 
 if(video.paused){
 video.play()
-videoCabeza.play()
 }
 
 },{once:true})
-
 
 let titulo = document.getElementById("titulo")
 /* SECUENCIA DEL TÍTULO */
@@ -66,7 +62,6 @@ video.load()
 video.play()
 
 segundoVideo = true
-videoCabeza.currentTime = video.currentTime
 
 /* cambiar estrellas y poster */
 
@@ -148,29 +143,6 @@ for(let i = 0; i < total; i++){
 }
 
 /* ESPACIO maquillaje */
-if(e.code==="Space"){
-
-mostrandoCabeza = !mostrandoCabeza;
-
-if(mostrandoCabeza){
-
-videoCabeza.style.opacity = "1";
-video.style.opacity = "0";
-
-// sincronizar
-videoCabeza.currentTime = video.currentTime;
-
-}else{
-
-videoCabeza.style.opacity = "0";
-video.style.opacity = "1";
-
-// sincronizar
-video.currentTime = videoCabeza.currentTime;
-
-}
-
-}
 
 if(e.code==="Space"){
 
