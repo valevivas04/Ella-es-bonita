@@ -1,0 +1,243 @@
+body{
+margin:0;
+background:black;
+overflow:hidden;
+}
+
+.escena{
+position:relative;
+width:100vw;
+height:100vh;
+}
+
+/* VIDEO */
+
+#video{
+position:absolute;
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+#titulo{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+width:800px;
+pointer-events:none;
+z-index:10;
+}
+
+/* ZONA CLICK LÁMPARA */
+
+#lamparaClick{
+position:absolute;
+top:50%;
+left:5%;
+width:150px;
+height:30px;
+cursor:pointer;
+}
+
+/* ESTRELLAS */
+
+#estrellas{
+position:absolute;
+left:18%;
+top:5%;
+width:220px;
+transition:0.3s;
+}
+
+/* POSTER */
+
+#poster{
+position:absolute;
+right:2%;
+top:5%;
+width:350px;
+transition:0.3s;
+}
+
+/* brocha */
+
+#brocha{
+position:absolute;
+bottom:300px;
+left:900px;
+width:120px;
+display:none;
+pointer-events:none;
+}
+
+/* chapitas maquillaje */
+
+.chapita{
+position:absolute;
+width:50px;
+height:50px;
+border-radius:50%;
+opacity:0;
+}
+
+.izquierda{
+left:670px;
+bottom:290px;
+}
+
+.derecha{
+left:790px;
+bottom:290px;
+}
+
+.chapita{
+border-radius: 50%;
+
+/*degradado radial */
+background: radial-gradient(
+    circle,
+    rgba(255, 105, 180, 0.9) 0%,   /* centro más sólido */
+    rgba(255, 105, 180, 0.6) 40%,
+    rgba(255, 105, 180, 0.3) 70%,
+    rgba(255, 105, 180, 0) 100%    /* borde difuminado */
+);
+
+.chapita{
+transition: opacity 0.4s ease;
+}
+
+/* suavidad extra */
+filter: blur(2px);
+
+/* transición cuando aparecen */
+transition: opacity 0.4s ease;
+}
+
+/* animaciones */
+
+.rotarEstrellas{
+transform:rotate(20deg);
+}
+
+.rotarPoster{
+transform:rotate(-20deg);
+}
+
+.lagrima{
+position:absolute;
+width:12px;
+height:18px;
+background:#8fd3ff;
+border-radius:50%;
+opacity:0;
+transform:translateY(0);
+}
+
+/* posiciones debajo de los ojos */
+
+#lagrima1{
+left:850px;
+top:600px;
+}
+
+#lagrima2{
+left:690px;
+top:600px;
+}
+
+/* animación de caída */
+
+.cayendo{
+opacity:1;
+animation:caer 1.5s linear infinite;
+}
+
+@keyframes caer{
+0%{ top:460px; opacity:1; }
+100%{ top:520px; opacity:0; }
+}
+
+#lagrima1{
+left:850px;
+top:620px;
+}
+
+#lagrima2{
+left:690px;
+top:620px;
+}
+
+/* DISTORSIÓN DEL ESPEJO */
+
+#distorsion{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+pointer-events:none;
+}
+
+.glitch{
+backdrop-filter:blur(6px) contrast(120%);
+}
+
+.estrellita{
+position: fixed;
+pointer-events: none;
+opacity: 1;
+
+animation: caer 3s linear forwards;
+}
+
+@keyframes caer{
+0%{
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 1;
+}
+100%{
+    transform: translate(var(--desplazamientoX), 100vh) rotate(360deg);
+    opacity: 0;
+}
+}
+
+.destello{
+position: fixed;
+pointer-events: none;
+opacity: 0;
+
+animation: aparecerDesvanecer 1.5s ease-out forwards;
+
+/* glow bonito */
+text-shadow: 
+    0 0 10px currentColor,
+    0 0 20px currentColor,
+    0 0 40px currentColor;
+}
+
+@keyframes aparecerDesvanecer{
+0%{
+    transform: scale(0.5) rotate(0deg);
+    opacity: 0;
+}
+30%{
+    opacity: 1;
+    transform: scale(1.2) rotate(20deg);
+}
+100%{
+    opacity: 0;
+    transform: scale(0.8) rotate(45deg);
+}
+}
+
+#videoCabeza{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
+opacity:0; /* oculto al inicio */
+pointer-events:none;
+}
