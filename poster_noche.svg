@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 386.36 461.09">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-4 {
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-5 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-6 {
+        fill: #8ee1f7;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 14.22px;
+      }
+
+      .cls-7, .cls-8 {
+        fill: #f6f6f6;
+      }
+
+      .cls-8 {
+        opacity: .46;
+      }
+
+      .cls-9 {
+        fill: #c1f675;
+      }
+
+      .cls-10 {
+        isolation: isolate;
+      }
+
+      .cls-11 {
+        opacity: .6;
+      }
+
+      .cls-12 {
+        fill: #f4a8cd;
+      }
+
+      .cls-13 {
+        fill: #95c11f;
+      }
+
+      .cls-14 {
+        fill: #e6007e;
+      }
+
+      .cls-15 {
+        fill: #7487a5;
+        mix-blend-mode: multiply;
+      }
+
+      .cls-16 {
+        fill: #009fe3;
+      }
+
+      .cls-17 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="63.16" y="35.91" width="264.72" height="378.74" transform="translate(77.18 -48.54) rotate(17.58)"/>
+    </clipPath>
+    <filter id="drop-shadow-1" x="83.27" y="162.24" width="55.92" height="115.92" filterUnits="userSpaceOnUse">
+      <feOffset dx="3.17" dy="4.75"/>
+      <feGaussianBlur result="blur" stdDeviation="1.58"/>
+      <feFlood flood-color="#32a0c6" flood-opacity=".5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" x="225.83" y="220.08" width="88.08" height="94.8" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3.17" dy="4.75"/>
+      <feGaussianBlur result="blur-2" stdDeviation="1.58"/>
+      <feFlood flood-color="#61a946" flood-opacity=".5"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-3" x="179.27" y="135.13" width="62.4" height="113.75" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="6.33"/>
+      <feGaussianBlur result="blur-3" stdDeviation="1.58"/>
+      <feFlood flood-color="#d363ae" flood-opacity=".5"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-10">
+    <g id="Capa_2" data-name="Capa 2">
+      <g id="Capa_1-2" data-name="Capa 1">
+        <g id="Poster">
+          <rect class="cls-16" x="69.73" y="34.64" width="246.77" height="379.43" transform="translate(76.79 -47.85) rotate(17.58)"/>
+          <polygon class="cls-14" points="255.95 443.36 105.65 395.73 195.65 26.23 370.56 81.65 255.95 443.36"/>
+          <polygon class="cls-13" points="257.37 443.78 169.24 415.85 309.03 62.12 371.98 82.07 257.37 443.78"/>
+          <g class="cls-17">
+            <g>
+              <g>
+                <g class="cls-11">
+                  <path class="cls-7" d="M80.89,227.31c-3.48,10.99-7.15,28.97,7.21,58.24,17.64,35.97,35.2,118.83,34.93,142.94,0,0,26.49-123.48,24.58-165.66-1.18-26.15-5.84-54.05-27.51-60.91-14.73-4.67-33.71,8.02-39.21,25.39Z"/>
+                </g>
+                <g>
+                  <path class="cls-7" d="M85.06,219.04c-2.68,8.8-7.34,17.69,3.83,44.85,11.98,29.13,29.56,60.67,34.81,108.4,0,0,18.69-89.59,19.7-121.18.66-20.83-1.93-48.43-18.65-53.53-16.72-5.09-33.52,1.21-39.69,21.47Z"/>
+                  <path class="cls-6" d="M81.84,207.12c-2.45,7.72-1.62,25.45,7.23,41.32,13.71,24.59,25.64,49.99,34.62,90.68,0,0,15.21-88.12,16.14-115.99.61-18.38-6.45-32.49-21.67-37.32-15.22-4.82-30.69,3.55-36.32,21.31Z"/>
+                </g>
+                <g class="cls-3">
+                  <circle class="cls-7" cx="105.93" cy="183.15" r="20.85"/>
+                  <path class="cls-7" d="M94.34,233.12l21.61,35.3,13.22-38.74c4.31-12.62,1.16-26.6-8.15-36.15l-16.02-16.45-11.35,20.23c-6.27,11.18-6.01,24.88.68,35.82Z"/>
+                </g>
+              </g>
+              <g>
+                <g class="cls-11">
+                  <path class="cls-7" d="M286.72,291.85c-3.48,10.99-10.84,27.8-39.43,43.46-35.14,19.25-97.21,76.87-110.87,96.74,0,0,49.46-116.2,75.3-149.59,16.02-20.7,35.9-40.82,57.57-33.96,14.73,4.67,22.94,25.97,17.43,43.34Z"/>
+                </g>
+                <g>
+                  <path class="cls-7" d="M288.08,282.69c-2.88,8.74-4.18,18.69-28.96,34.46-26.57,16.91-59.1,32.57-90.89,68.57,0,0,36.31-84.01,53.69-110.41,11.46-17.41,29.47-38.48,46.07-33.02,16.6,5.47,26.7,20.29,20.08,40.4Z"/>
+                  <path class="cls-9" d="M297.58,274.79c-2.45,7.72-13.33,21.74-29.7,29.61-25.37,12.2-49.75,26.1-80.53,54.19,0,0,38.32-80.8,53.61-104.12,10.08-15.38,23.98-22.85,39.21-18.02,15.22,4.82,23.04,20.58,17.42,38.34Z"/>
+                </g>
+                <g class="cls-5">
+                  <circle class="cls-7" cx="291.14" cy="241.15" r="20.85"/>
+                  <path class="cls-7" d="M271.85,288.68l-37.99,16.41,11.5-39.29c3.75-12.8,14.37-22.41,27.48-24.86l22.57-4.22-2.37,23.07c-1.31,12.75-9.42,23.8-21.19,28.89Z"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <path class="cls-8" d="M229,202.41c1.43,8.81,2.04,40.31-13.57,68.02-27.35,48.55-80.98,159.64-101.52,212.27,0,0,30.84-162.15,37.6-232.47,2.97-30.91,20.16-60.69,40.1-69.05,18.05-7.57,34.1.98,37.38,21.24Z"/>
+                  <path class="cls-7" d="M228.45,201.13c1.43,8.81-1.07,27.19-11.9,47.04-26.72,48.95-57.88,104.95-78.41,157.58,0,0,17.88-105.05,24.61-175.37,2.01-21.02,8.36-42.12,28.31-50.49,18.05-7.57,34.1.98,37.38,21.24Z"/>
+                  <path class="cls-12" d="M235.8,178.99c1.43,8.81,3.17,23.88-9.02,42.78-34.02,52.73-49.61,77.8-73.15,131.44,0,0,12.24-54.39,14.95-145.4.63-20.99,7.22-42.19,27.16-50.55,18.05-7.57,36.78,1.48,40.06,21.74Z"/>
+                </g>
+                <g class="cls-4">
+                  <circle class="cls-7" cx="215.78" cy="155.98" r="20.85"/>
+                  <path class="cls-7" d="M184.4,196.55l4.91,41.09,28.18-29.69c9.18-9.67,12.15-23.69,7.68-36.25l-7.7-21.63-18.75,13.65c-10.37,7.55-15.84,20.1-14.32,32.84Z"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <rect class="cls-2" x="60.72" y="41.08" width="265.27" height="379.8" transform="translate(78.8 -47.62) rotate(17.58)"/>
+        </g>
+        <rect id="Filtro_Noche" class="cls-15" x="53.05" y="33.08" width="280.26" height="394.93" transform="translate(78.57 -47.54) rotate(17.56)"/>
+      </g>
+    </g>
+  </g>
+</svg>
